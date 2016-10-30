@@ -2,58 +2,49 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Randal Rowland's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	
-<div class="wrapper">
-
-	<!-- Header -->
-
-		<header>
-
-			<h1>Randal Rowland</h1>
-
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html" class="border">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-
+<!-- Header -->
+		<header id="masthead">
+			<div class="container">
+				<a href="#" id="logo">Randal Rowland</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
 		</header>
-
-
-	<!-- Main Content -->
-
-		<div class="content">
-			<h2>About Me</h2>
-			<hr>
-			<section>
-				<img src="https://avatars2.githubusercontent.com/u/20525446?v=3&u=21381363e309160020d42e27c602a829d2a98737&s=140" alt="Self Portrait" id="selfPic">
-				<p>Hi, my name is Randal. I was born in Texas. I orignally lived in Houston until I moved to Austin in 2012 for college. I graduated with a Bachelor's in Biochemistry in 2016. I have found a recent love for web-development and am currently taking the University of Texas at Austin's Coding Bootcamp.</p>
-
-				<p>When I'm not behind a computer, you can find me in the gym or at a park with my dog, Petey. Bodybuilding is my other passion, which lead me to my current role as a personal trainer.</p>
-			</section>
+<!-- Main Content -->
+			<div id="main-container" class="container">
+				<section class="main-section">
+					<h1>About Me</h1>
+					<hr>
+						<img src="https://avatars2.githubusercontent.com/u/20525446?v=3&u=21381363e309160020d42e27c602a829d2a98737&s=140" alt="Self Portrait" class="auth-image">
+						<p>Hi, my name is Randal. I was born in Texas. I orignally lived in Houston until I moved to Austin in 2012 for college. I graduated with a Bachelor's in Biochemistry in 2016. I have found a recent love for web-development and am currently taking the University of Texas at Austin's Coding Bootcamp.</p>
+						<p>When I'm not behind a computer, you can find me in the gym or at a park with my dog, Petey. Bodybuilding is my other passion, which lead me to my current role as a personal trainer.</p>
+				</section>
+<!--sidebar -->
+				<section class="sidebar">
+					<div id="connect">
+						<h2>Connect with Me</h2>
+						<a href="https://github.com/RJRowland93" target="_blank"><img src="assets/images/gitHubLogo.png" class="social" alt="Github Logo"></a>
+						<a href="https://www.linkedin.com/in/randal-rowland-186523124" target="_blank"><img src="assets/images/linkedInLogo.png" alt="LinkedIn Logo" class="social"></a>
+						<a href="http://stackoverflow.com/users/7016372/randal-rowland" target="_blank"><img src="assets/images/stackoverflowLogo.png" alt="stackoverflow Logo" class="social"></a>
+					</div>
+				</section>
+			<div class="push"></div>
 		</div>
-
-	<!-- Contat Me -->
-
-		<div class="contact">
-			<h3>Connect with Me</h3>
-			<hr>
-			<section class="logos">
-				<a href="https://github.com/RJRowland93" target="_blank"><img src="assets/images/gitHubLogo.png" id="git" alt="Github Logo" class="logo"></a>
-				<a href="https://www.linkedin.com/in/randal-rowland-186523124" target="_blank"><img src="assets/images/linkedInLogo.png" alt="LinkedIn Logo" id="lin" class="logo"></a>
-				<a href="http://stackoverflow.com/users/7016372/randal-rowland" target="_blank"><img src="assets/images/stackoverflowLogo.png" alt="stackoverflow Logo" id="sof" class="logo"></a>
-			</section>
-		</div>
-
-		<footer class="site-footer">
-			<h6>&copy;Copyright 2016 Randal Rowland</h6>
+			
+<!--footer-->
+		<footer>
+			<div class="container">
+				&copy;Copyright 2016 Randal Rowland
+			</div>		
 		</footer>
-
-	</div>
 </body>
 </html>

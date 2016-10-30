@@ -2,78 +2,74 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Randal Rowland's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
-	<div class="wrapper">
-
 	<!-- Header -->
-
-		<header>
-
-			<h1>Randal Rowland</h1>
-
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-
+		<header id="masthead">
+			<div class="container">
+				<a href="#" id="logo">Randal Rowland</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
 		</header>
 
 	<!-- Main Content -->
 
-		<div class="content">
-			<h2>Portfolio</h2>
-			<hr>
-			<section id="Hangman">
-				<img src="assets/images/abstract.jpg" alt="Hangman">
-				<h3 class="overlay">Hangman</h3>
-			</section>
+		<div id="main-container" class="container">
+				<section class="main-section">
+					<h2>Portfolio</h2>
+					<hr>
+					<div class="work">
+						<img src="assets/images/abstract.jpg" alt="Hangman">
+						<h3>Hangman</h3>
+					</div>
 
-			<section id="RPG">
-				<img src="assets/images/cats.jpg" alt="RPG Game">
-				<h3 class="overlay">RPG Game</h3>
-			</section>
+					<div class="work">
+						<img src="assets/images/cats.jpg" alt="RPG Game">
+						<h3>RPG Game</h3>
+					</div>
 
-			<section id="Trivia">
-				<img src="assets/images/city.jpg" alt="Trivia">
-				<h3 class="overlay">Trivia</h3>
-			</section>
+					<div class="work">
+						<img src="assets/images/city.jpg" alt="Trivia">
+						<h3>Trivia</h3>
+					</div>
 
-			<section id="Widget">
-				<img src="assets/images/headphones.jpg" alt="Rutgers Info Widget">
-				<div class="overlay">
-					<h3 >Rutgers Info Widget</h3>
+					<div class="work">
+						<img src="assets/images/headphones.jpg" alt="Rutgers Info Widget">
+						<h3>Rutgers Info Widget</h3>	
+					</div>
+
+					<div class="work">
+						<img src="assets/images/nature.jpg" alt="Rock Paper Scissors">
+						<h3>Rock Paper Scissors</h3>
+					</div>
+				</section>
+
+	<!--sidebar -->
+
+			<section class="sidebar">
+				<div id="connect">
+					<h2>Connect with Me</h2>
+
+					<a href="https://github.com/RJRowland93" target="_blank"><img src="assets/images/gitHubLogo.png" class="social" alt="Github Logo"></a>
+					<a href="https://www.linkedin.com/in/randal-rowland-186523124" target="_blank"><img src="assets/images/linkedInLogo.png" alt="LinkedIn Logo" class="social"></a>
+					<a href="http://stackoverflow.com/users/7016372/randal-rowland" target="_blank"><img src="assets/images/stackoverflowLogo.png" alt="stackoverflow Logo" class="social"></a>
 				</div>
 			</section>
-
-			<section id="RPS">
-				<img src="assets/images/nature.jpg" alt="Rock Paper Scissors">
-				<h3 class="overlay">Rock Paper Scissors</h3>
-			</section>
+			<div class="push"></div>
 		</div>
-
-	<!-- Contat Me -->
-
-		<div class="contact">
-			<h3>Connect with Me</h3>
-			<hr>
-			<section class="logos">
-				<a href="https://github.com/RJRowland93" target="_blank"><img src="assets/images/gitHubLogo.png" id="git" alt="Github Logo" class="logo"></a>
-				<a href="https://www.linkedin.com/in/randal-rowland-186523124" target="_blank"><img src="assets/images/linkedInLogo.png" alt="LinkedIn Logo" id="lin" class="logo"></a>
-				<a href="http://stackoverflow.com/users/7016372/randal-rowland" target="_blank"><img src="assets/images/stackoverflowLogo.png" alt="stackoverflow Logo" id="sof" class="logo"></a>
-			</section>
-		</div>
-
+<!--footer-->
 		<footer>
-			<h6>&copy;Copyright 2016 Randal Rowland</h6>
+			<div class="container">
+				&copy;Copyright 2016 Randal Rowland
+			</div>		
 		</footer>
-
-	</div>
-
 </body>
 </html>
